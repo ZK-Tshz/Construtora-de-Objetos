@@ -57,10 +57,10 @@ Passo 4: A Contratação (Main)
 ------------------------------------------------------------------------------------
 
 # Estrutura do Projeto
-  src/
-    geometria/
-      Calculadora.java
-    Main.java
+    src/
+      geometria/
+        Calculadora.java
+      Main.java
 
 ------------------------------------------------------------------------------------
 
