@@ -44,8 +44,8 @@ public class Calculadora {
             lado = s.nextDouble();
 
             Double areaQ = lado*lado;
-            System.out.println("A Área do Quadrado é: " + areaQ);
-            System.out.println("Programa encerrado!");
+            System.out.printf("A Área do Quadrado é: " + areaQ);
+            System.out.printf("Programa encerrado!");
             break;
 
           case 2:
@@ -58,8 +58,8 @@ public class Calculadora {
             altura = s.nextDouble();
 
             Double areaR = base*altura;
-            System.out.println("A Área do Retângulo é: " + areaR);
-            System.out.println("Programa encerrado!");
+            System.out.printf("A Área do Retângulo é: " + areaR);
+            System.out.printf("Programa encerrado!");
             break;
 
           case 3:
@@ -69,19 +69,20 @@ public class Calculadora {
             raio = s.nextDouble();
 
             Double areaC = 3.14*(raio*raio);
-            System.out.println("(Considerando pi = 3,14) A Área do Círculo é: " + areaC);
-            System.out.println("Programa encerrado!");
+            System.out.printf("(Considerando pi = 3,14) A Área do Círculo é: " + areaC);
+            System.out.printf("Programa encerrado!");
             break;
 
           case 4:
-            System.out.println("4 - Sair");
-            System.out.println("Programa encerrado!");
+            System.out.printf("4 - Sair");
+            System.out.printf("Programa encerrado!");
             break;
         
           default:
-            System.out.println(opcao + ", A opção escolhida é inválida!");
+            System.out.printf(opcao + ", A opção escolhida é inválida!");
             break;
         }
         s.close();
     }
 }
+
