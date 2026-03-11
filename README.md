@@ -4,8 +4,7 @@
 ------------------------------------------------------------------------------------
 
 # Instruções Passadas
-
-Missão: Você foi contratado pela Java Constructions Inc. para criar uma ferramenta que auxilia os arquitetos a calcularem a área de terrenos automaticamente.
+  Missão: Você foi contratado pela Java Constructions Inc. para criar uma ferramenta que auxilia os arquitetos a calcularem a área de terrenos automaticamente.
 Proibido uso de IA (ChatGPT, Gemini, Copilot).
 
 Passo 1: A Organização (Pacotes)
@@ -48,3 +47,22 @@ Passo 4: A Contratação (Main)
     Instancie o objeto: Calculadora calc = new Calculadora();
     Chame o menu: calc.menu();
     Mande executar: calc.executar();
+
+------------------------------------------------------------------------------------
+
+# Tecnologias Utilizadas
+  - Java
+  - VS Code
+
+------------------------------------------------------------------------------------
+
+# Estrutura do Projeto
+  src/
+    geometria/
+      Calculadora.java
+    Main.java
+
+------------------------------------------------------------------------------------
+
+# Considerações Finais
+  O trabalho foi desenvolvido como atividade, com fins de testar o conhecimento, melhorar o aprendizado e a lógica por trás dos códigos.
